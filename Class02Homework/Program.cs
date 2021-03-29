@@ -20,8 +20,8 @@ namespace Class02Homework
             //Console.WriteLine("Enter your operation: ");
             //bool operationFinal = char.TryParse(Console.ReadLine(), out char operation);
             //int result;
-
-            //if (numberOne || numberTwo || operationFinal)
+            
+            //if (numberOne && numberTwo && operationFinal)
             //{
             //    if (operation == '+')
             //    {
@@ -76,7 +76,7 @@ namespace Class02Homework
             //Console.WriteLine("Enter the fourth number: ");
             //bool fourthNum = int.TryParse(Console.ReadLine(), out int d);
 
-            //if (firstNum || secoundNum || thirdNum || fourthNum)
+            //if (firstNum && secoundNum && thirdNum && fourthNum)
             //{
             //    int result = (a + b + c + d) / 4;
             //    Console.WriteLine("The average of:" + a + "," + b + "," + c + "," + d + " is:" + result);
@@ -86,7 +86,7 @@ namespace Class02Homework
             //    Console.WriteLine(value: "Enter valid number");
             //}
 
-            Console.WriteLine("====================");
+            //Console.WriteLine("====================");
 
             // Task 03
             // Create new console application “SwapNumbers”.
@@ -100,7 +100,7 @@ namespace Class02Homework
             //bool ifSuccessInputUserTwo = int.TryParse(Console.ReadLine(), out int inputNumberTwo);
 
 
-            //if (ifSuccessInputUserOne || ifSuccessInputUserTwo)
+            //if (ifSuccessInputUserOne && ifSuccessInputUserTwo)
             //{
 
             //    int result01 = inputNumberOne;
@@ -119,22 +119,21 @@ namespace Class02Homework
             // Write a program, where for a given number entered via the keyboard, it will print:
             Console.WriteLine("Task 4 - divisible by 3 and 5 ");
 
-            //Console.WriteLine("Enter your first number: ");
-            //bool inputNum01 = int.TryParse(Console.ReadLine(), out int divisibleByThree);
-            //Console.WriteLine("Enter your second number: ");
-            //bool inputNum02 = int.TryParse(Console.ReadLine(), out int divisibleByFive);
+            //Console.WriteLine("Enter your number: ");
+            //bool inputNum01 = int.TryParse(Console.ReadLine(), out int divisibleByThreeAndFive);
 
-            //if (inputNum01 && inputNum02)
+
+            //if (inputNum01)
             //{
-            //    if (divisibleByThree % 3 == 0 && divisibleByFive % 5 == 0)
+            //    if (divisibleByThreeAndFive % 3 == 0 && divisibleByThreeAndFive % 5 == 0)
             //    {
             //        Console.WriteLine(value: "Tik-Tak");
             //    }
-            //    else if (divisibleByThree % 3 == 0)
+            //    else if (divisibleByThreeAndFive % 3 == 0)
             //    {
             //        Console.WriteLine(value: "Tik");
             //    }
-            //    else if (divisibleByFive % 5 == 0)
+            //    else if (divisibleByThreeAndFive % 5 == 0)
             //    {
             //        Console.WriteLine(value: "Tak");
             //    }
